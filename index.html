@@ -176,7 +176,6 @@
 		Sheetsee.initiateTableFilter(tagFilter, "#articleSearch", "#articleTable")
       })
 	   $(document).on("click", ".type", function(event){
-			  document.getElementById("steps").style.display = "none";
         var type = $(event.target).text()
 		var typetext=type.split(':')
 	  gData = getType(data, typetext[0].trim())
